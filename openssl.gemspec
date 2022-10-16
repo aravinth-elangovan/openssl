@@ -1,5 +1,5 @@
 Gem::Specification.new do |spec|
-  spec.name          = "openssl"
+  spec.name          = "openssl-custom"
   spec.version       = "2.2.2"
   spec.authors       = ["Martin Bosslet", "SHIBATA Hiroshi", "Zachary Scott", "Kazuki Yamaguchi"]
   spec.email         = ["ruby-core@ruby-lang.org"]
@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   spec.extra_rdoc_files = Dir["*.md"]
   spec.rdoc_options = ["--main", "README.md"]
 
-  spec.required_ruby_version = ">= 2.3.0"
+  spec.required_ruby_version = ">= 2.2.0"
 
   spec.add_runtime_dependency "ipaddr"
   spec.add_development_dependency "rake", ">= 11.2.0"
